@@ -1,0 +1,31 @@
+buildscript {
+
+    repositories {
+        maven { url 'https://maven.google.com' }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-alpha1'
+        //1.引入Small依赖，必选。
+        classpath 'net.wequick.tools.build:gradle-small:1.2.0-alpha3'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//2.应用插件，必选。
+apply plugin: 'net.wequick.small'
+
+//3.配置Small的代码库版本，需要放在第2步的下面，否则会报错，可选。
+small {
+    aarVersion = '1.2.0-alpha3'
+}
