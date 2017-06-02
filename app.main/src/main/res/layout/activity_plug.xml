@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.small.LaunchActivity">
+    android:background="@android:color/white"
+    tools:context="com.demo.small.app.main.PlugActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Start Plug Activity"
-        android:onClick="startPlugActivity" />
+        android:textColor="@android:color/black"
+        android:text="PlugActivity started success"/>
 
 </FrameLayout>

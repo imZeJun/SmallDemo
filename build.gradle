@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-alpha1'
+        classpath 'com.android.tools.build:gradle:2.2.3'
         //1.引入Small依赖，必选。
         classpath 'net.wequick.tools.build:gradle-small:1.2.0-alpha3'
     }

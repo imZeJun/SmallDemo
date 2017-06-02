@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.demo.small.app.main"
+    }
+  ]
+}
