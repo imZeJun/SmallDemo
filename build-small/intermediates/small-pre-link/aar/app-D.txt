@@ -9,4 +9,5 @@ com.android.support:support-v4:25.1.0
 com.android.support:support-compat:25.1.0
 net.wequick.small:small:1.2.0-alpha3
 com.android.support:animated-vector-drawable:25.1.0
+SmallDemo:app+detail:unspecified
 com.android.support:support-core-utils:25.1.0

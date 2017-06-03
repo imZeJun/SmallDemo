@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.small.appdetail">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+        <!-- Stub Activity -->
+        <activity android:name="com.demo.small.app.detail.StubActivity" android:theme="@style/Theme.AppCompat"/>
+
+        <!-- Stub Service -->
+        <service android:name="com.demo.small.app.detail.StubService"/>
+
+        <!-- Stub ContentProvider -->
+        <provider
+            android:authorities="com.demo.small.app.detail.stub.provider"
+            android:name="com.demo.small.app.detail.StubContentProvider"/>
+
+        <!-- Stub BroadcastReceiver -->
+        <receiver android:name="com.demo.small.app.detail.StubBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.demo.small.action.stub.broadcast"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

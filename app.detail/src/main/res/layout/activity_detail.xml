@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.demo.small.app.detail.DetailActivity">
+
+    <TextView
+        style="@style/StyleTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity"
+        android:onClick="activity"/>
+    <TextView
+        style="@style/StyleTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:onClick="service"/>
+    <TextView
+        style="@style/StyleTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ContentProvider"
+        android:onClick="contentProvider"/>
+    <TextView
+        style="@style/StyleTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BroadcastReceiver"
+        android:onClick="broadcastReceiver"/>
+
+</LinearLayout>

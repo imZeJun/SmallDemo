@@ -12,6 +12,10 @@
     {
       "uri": "main",
       "pkg": "com.demo.small.app.main"
+    },
+    {
+      "uri": "detail",
+      "pkg": "com.demo.small.app.detail"
     }
   ]
 }

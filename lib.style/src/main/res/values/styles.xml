@@ -3,6 +3,7 @@
     <style name="StyleTextViewTitle">
         <item name="android:textSize">45px</item>
         <item name="android:textColor">#333333</item>
+        <item name="android:padding">12dp</item>
     </style>
 
     <style name="StyleTextViewSubTitle">

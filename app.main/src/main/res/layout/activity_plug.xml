@@ -16,8 +16,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Small Android"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
         android:layout_gravity="center_horizontal"
         style="@style/StyleTextViewTitle"/>
     <TextView
