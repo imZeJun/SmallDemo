@@ -26,7 +26,11 @@ public class LaunchActivity extends AppCompatActivity {
         });
     }
 
-    public void startPlugActivity(View view) {
+    public void startMainDemoActivity(View view) {
         Small.openUri("main", LaunchActivity.this);
+    }
+
+    public void startStubDemoActivity(View view) {
+        Small.openUri("detail", LaunchActivity.this);
     }
 }

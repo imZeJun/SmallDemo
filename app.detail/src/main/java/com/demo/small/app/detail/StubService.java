@@ -4,7 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.util.Log;
+import android.widget.Toast;
 
 public class StubService extends Service {
 
@@ -15,14 +15,13 @@ public class StubService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d("StubService", "onStartCommand");
+        Toast.makeText(getApplicationContext(), "StubService, onStartCommand", Toast.LENGTH_SHORT).show();
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
-        Log.d("StubService", "onBind");
         return null;
     }
 }

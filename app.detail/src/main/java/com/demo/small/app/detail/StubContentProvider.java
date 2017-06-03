@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.widget.Toast;
 
 public class StubContentProvider extends ContentProvider {
 
@@ -14,40 +15,35 @@ public class StubContentProvider extends ContentProvider {
 
     @Override
     public boolean onCreate() {
-        Log.d("StubContentProvider", "onCreate");
         return false;
     }
 
     @Nullable
     @Override
     public Cursor query(@NonNull Uri uri, @Nullable String[] strings, @Nullable String s, @Nullable String[] strings1, @Nullable String s1) {
-        Log.d("StubContentProvider", "onCreate");
         return null;
     }
 
     @Nullable
     @Override
     public String getType(@NonNull Uri uri) {
-        Log.d("StubContentProvider", "query");
         return null;
     }
 
     @Nullable
     @Override
     public Uri insert(@NonNull Uri uri, @Nullable ContentValues contentValues) {
-        Log.d("StubContentProvider", "insert");
+        Toast.makeText(getContext(), "StubContentProvider, insert", Toast.LENGTH_SHORT).show();
         return null;
     }
 
     @Override
     public int delete(@NonNull Uri uri, @Nullable String s, @Nullable String[] strings) {
-        Log.d("StubContentProvider", "delete");
         return 0;
     }
 
     @Override
     public int update(@NonNull Uri uri, @Nullable ContentValues contentValues, @Nullable String s, @Nullable String[] strings) {
-        Log.d("StubContentProvider", "update");
         return 0;
     }
 }
