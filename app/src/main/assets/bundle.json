@@ -2,6 +2,14 @@
   "version": "1.0.0",
   "bundles": [
     {
+      "uri": "lib.utils",
+      "pkg": "com.demo.small.lib.utils"
+    },
+    {
+      "uri": "lib.style",
+      "pkg": "com.demo.small.lib.style"
+    },
+    {
       "uri": "main",
       "pkg": "com.demo.small.app.main"
     }

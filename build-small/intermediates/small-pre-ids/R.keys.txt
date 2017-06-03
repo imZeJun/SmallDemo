@@ -1430,3 +1430,9 @@ int[] styleable ViewStubCompat
 int styleable ViewStubCompat_android_id
 int styleable ViewStubCompat_android_inflatedId
 int styleable ViewStubCompat_android_layout
+int style StyleTextViewSubTitle
+int style StyleTextViewTitle
+int layout notification_template_lines
+int dimen abc_dialog_list_padding_vertical_material
+int color hint_foreground_material_dark
+int color hint_foreground_material_light

@@ -1,0 +1,2 @@
+int style StyleTextViewSubTitle 0x79020000
+int style StyleTextViewTitle 0x79020001

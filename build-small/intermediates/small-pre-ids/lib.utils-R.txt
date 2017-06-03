@@ -1,0 +1,4 @@
+int layout notification_template_lines 0x73020000
+int dimen abc_dialog_list_padding_vertical_material 0x73030000
+int color hint_foreground_material_dark 0x73040000
+int color hint_foreground_material_light 0x73040001

@@ -1,0 +1,4 @@
+com.android.support:support-vector-drawable:24.0.0
+com.android.support:appcompat-v7:24.0.0
+com.android.support:support-v4:24.0.0
+com.android.support:animated-vector-drawable:24.0.0
